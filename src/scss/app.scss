@@ -1,0 +1,23 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   scroll-behavior: smooth;
+   font-family: var(--font-family);
+   color: var(--primary-text-color);
+   width: 100%;
+   overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+   background-color: var(--legit-white);
+   width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+   background-color: #777;
+   border-radius: 50px;
+}
